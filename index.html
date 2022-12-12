@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>WEBSITE NAME::PAGE NAME</title>
+<meta name="description" content="This is an example of a meta description. This will often show up in search results so it is important to write a high quality description for each page of a website">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <a href=""></a><link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<header>
+			
+		 	
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="javascript.html">Javascript</a></li>
+			</ul>
+		</nav>
+
+		<div class="home-hero">
+			<img src="images/header2.png" height="300" width="300" alt="panther image" class="img-fluid">
+			<h1>Welcome to my Portfolio</h1>
+		</div>
+
+		<main>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<h2>About Me</h2>
+						<p>My name is Yusuf Yusuf and I study Programming and Web development at Saint Paul College in St. Paul, Minnesota. I made this website as a portfolio of my skills developing websites.</p>
+
+						<p>I have taken the following classes at Saint Paul College:</p>
+								<ul>
+								<li>Web Fundamentals, where I learned HTML and CSS</li>
+								<li>Client Side Programming where I learned JavaScript</li>
+								<li>Server Side Programming where I learned PHP/MySql</li>
+								<li>Java</li>
+								<li>Introduction to programming where I learned Python</li>
+								</ul>
+						
+						<p>My hobbies include playing video games, swimming, and basketball. I enjoy spending time with family, and going on walks. <p>
+					</div>
+
+					<div class="col-sm-6">
+						<img src="images/minneapolis.jpg" width="400" height="400" class="img-fluid photo-sp">
+						<p>This is a picture of Minneapolis, MN. I was born and raised in this city.</p>
+					</div>
+				</div>
+				<hr>
+
+
+
+
+	            <div class="row big-3">
+	            	<div class="col-sm-4">
+	            		<i class="fa fa-file-text" aria-hidden="true"></i>
+						<h2>Resume</h2>
+						<p>Check out my resume! I am always looking for coding opportunities.</p>
+						<a href="resume.html"><button>Learn More</button></a>
+	            	</div>
+	            	<div class="col-sm-4">
+	            		<i class="fa fa-tint" aria-hidden="true"></i>
+	            		<h2>Portfolio</h2>
+						<p>My portfolio includes websites as well as some special HTML/CSS projects.</p>
+						<a href="portfolio.html"><button>Learn More</button></a>
+
+	            	</div>
+	            	<div class="col-sm-4">
+	            		<i class="fa fa-gamepad" aria-hidden="true"></i>
+	            		<h2>JavaScript Game</h2>
+						<p>I made my custom version of the W3 Schools JavaScript game.</p>
+						<a href="javascript-mod.html"><button>Learn More</button></a>
+					</div>
+				</div>
+
+				<hr>
+				<h2>My favorite Landscape artwork</h2>
+				<p>I made this photo gallery in JavaScript. It includes some landscape artwork I found on Pixabay.com.</p>
+
+				<div class="gallery row">
+					<div class="col-sm-9">
+						<div class="preview">
+				      	   <img id="preview" src="images/tree.jpg" alt="tree">
+				    	</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="gallery-thumbnails">
+				        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/wolf.jpg" alt="spaceship with two people on a cliff">
+				        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/hill.jpg" alt="spaceship in the mountains">
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/nature.jpg" alt="spaceship over a planet and near a tunnel">
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/trail.jpg" alt="two spaceships over a city">
+			        </div>
+				</div>
+				
+				
+
+
+
+
+
+
+	    	</div>
+
+		</main>
+		<!-- This is the end of the main section -->
+		<footer>
+			  <div class="row footer1000">
+            
+            	<div class="col-sm-6">
+					<h4>My Portfolio</h4>
+                	<p1> This website is a portfolio website made by Yusuf Yusuf. The Panther Image is royalty free artwork from Pixabay. Bootstrap columns were used to make responsive layouts.</p1>
+					
+                </div>
+
+				 <div class="col-sm-6">
+						  <h4>Let's Connect!</h4>
+		                	<a href="https:/facebook.com">
+		                		<h5><i class="fa fa-mobile" aria-hidden="true"></i>
+		                			Contact Me</h5>
+		                   </a>
+		                   <a href="mailto:yusuf662602@gmail.com">
+		                		<h5><i class="fa fa-envelope" aria-hidden="true"></i>
+		                		Email Me</h5>
+		                	</a>
+							<a href="https://linked.com">
+		                		<h5><i class="fa fa-share" aria-hidden="true"></i>
+		                		Share</h5>
+		                   </a>
+		                </div>
+		                
+		</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

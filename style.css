@@ -1,0 +1,307 @@
+h1{
+	text-align: center;
+	color: white;
+}
+h2{
+	color: black;
+}
+
+nav{
+	background-color: white;
+	border-top:2px solid black ;
+	border-bottom:2px solid black ;
+}
+body{
+	font-family: 'Source Sans Pro;',sans-serif;
+	margin: 0;
+	background-color: white;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+nav ul{
+	color: black;
+  list-style-type: none;
+  text-align: center;
+  margin: 10px;
+}
+p{
+	margin-top: 0;
+}
+
+.gallery .preview {
+    width: 100%;
+    height: auto;
+}
+
+h5{
+	color: white;
+}
+hr {
+    margin: 60px auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.photo-sp {
+    margin-top: 80px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 10px;
+}
+nav li{
+  display: inline;
+}
+nav a:link{
+  color: black;
+}
+nav a:visited{
+  color: black;
+}
+nav a:hover{
+  color: blue;
+}
+nav a:active{
+  color: red;
+}
+li{
+	color:black;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    margin: 40px 0 0 0;
+    display: block;
+
+}
+
+small{
+	color: white;
+}
+
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+input[type=submit]{
+	background-color: red;
+}
+i.fa{
+	text-align: center;
+  margin: 10px;
+	font-size: 5em;
+	color: lightblue;
+}
+.col-sm-6{
+	max-width: 50%;
+}
+.col-sm-2{
+	  position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+    border: 2px solid #ddd;
+    box-shadow: 1px 1px 5px 1px #666666;
+}
+.footer1000 {
+    padding: 40px 0;
+    color: #Ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer-bottom {
+    padding: 10px;
+    color: #Ffffff;
+    text-align: center;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+    border: 2px solid #ddd;
+    box-shadow: 1px 1px 5px 1px #666666;
+}
+.resume {
+    margin: 30px auto;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 2px #333333;
+    padding: 30px 5%;
+    max-width: 800px;
+}
+.col-sm-12{
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.home-hero{
+    min-height: 300px;
+    background-image: url(images/palm.jpg);
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    }
+.home-hero img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 70%;
+    border: #000000 solid 8px;
+    padding: 10px;
+    background-color: white;
+  }
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:60%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+}
+.myButton {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+  }
+
+canvas{
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    display: block;
+    background-image: url(images/Game.jpg);
+    border: 3px solid #800080;
+    box-shadow: 2px 2px 6px black;
+  }
+  .game-controls{
+  	text-align: center;
+  	margin: 20px;
+  }
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+label{
+   float: left;
+   width: 8em;
+   padding-right: 1em;
+} 
+input,textarea{
+   display: block;
+   margin-bottom: 1em;
+}
+#mySubmit{
+   background-color: light grey;
+   margin-left: 10em;
+   display: block;
+}
+   table{
+  border-collapse: collapse;
+  margin:0 auto;
+  border: 1px solid #3399cc;
+  width: 90%;
+
+}
+td,th{
+  border: 1px solid #3399cc;
+  padding: 5px;
+  text-align:center;
+}
+tr:nth-of-type(even){
+    background-color: #F5FAFC;
+
+}
+input[type=submit]{
+	background-color: light grey;
+}
+
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+
